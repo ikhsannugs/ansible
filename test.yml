@@ -1,6 +1,6 @@
 ---
 - name: cek hiu
-  hosts: all
+  #hosts: all
   become: yes
   tasks:
      - name: hiu cek
