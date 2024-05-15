@@ -1,0 +1,7 @@
+---
+- name: cek hiu
+  hosts: all
+  become: yes
+  tasks:
+     - name: hiu cek
+        shell: uptime
